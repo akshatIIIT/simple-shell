@@ -28,6 +28,13 @@ OS: Linux/Unix
    - Command history
    - Execution details for each command: PID, start time, execution time, etc.
 
+## USAGE
+gcc simple-shell.c -o simple-shell
+./simple-shell
+
+## Academic Refrence
+This project was developed as part of the Operating Systems coursework under the guidance of Prof. Vivek Kumar at IIIT-Delhi.
+
 ## 🧾 Sample Commands Supported
 
 ```bash
@@ -36,10 +43,3 @@ echo Hello, World!
 cat file.txt | grep keyword | wc -l
 sort file.txt | uniq
 ./helloword
-
-## USAGE
-gcc simple-shell.c -o simple-shell
-./simple-shell
-
-## Academic Refrence
-This project was developed as part of the Operating Systems coursework under the guidance of Prof. Vivek Kumar at IIIT-Delhi.
